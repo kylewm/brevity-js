@@ -1,0 +1,31 @@
+{
+  "name": "brevity",
+  "version": "0.2.3",
+  "description": "A small utility to shorten posts to an acceptable tweet-length summary.",
+  "main": "brevity.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kylewm/brevity"
+  },
+  "keywords": [
+    "indieweb",
+    "tweet",
+    "twitter",
+    "shortening"
+  ],
+  "author": "Kyle Mahan",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/kylewm/brevity/issues"
+  }
+}
