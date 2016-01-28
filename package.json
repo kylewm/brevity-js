@@ -21,9 +21,13 @@
     "indieweb",
     "tweet",
     "twitter",
-    "shortening"
+    "shortening",
+    "shortener"
   ],
-  "author": "Kyle Mahan",
+  "author": {
+    "name": "Kyle Mahan",
+    "email": "kyle+brevityjs@kylewm.com"
+  },
   "license": "CC0",
   "bugs": {
     "url": "https://github.com/kylewm/brevity/issues"

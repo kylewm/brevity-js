@@ -1,5 +1,7 @@
 # brevity-js
 
+[![Build Status](https://travis-ci.org/kylewm/brevity-js.svg?branch=master)](https://travis-ci.org/kylewm/brevity-js)
+
 A small utility to count characters, autolink, and shorten posts to an
 acceptable tweet-length summary.
 
