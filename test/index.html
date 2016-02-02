@@ -10,13 +10,13 @@
   <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
   <script src="http://chaijs.com/chai.js"></script>
-  <script src="/brevity.js"></script>
+  <script src="../brevity.js"></script>
 
   <script>mocha.setup('bdd')</script>
-  <script src="/test/test.js"></script>
+  <script src="test.js"></script>
 
   <script>
-    $.getJSON('/tests.json', function (testdata) {
+    $.getJSON('https://raw.githubusercontent.com/kylewm/brevity-testcases/master/tests.json', function (testdata) {
       test.init(brevity, chai.assert, testdata);
       mocha.checkLeaks();
       mocha.run();

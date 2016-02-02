@@ -10,7 +10,7 @@
                         testcase.permashortcitation,
                         testcase.target_length,
                         testcase.link_length,
-                        testcase.format_as_title
+                        testcase.format
                     );
                     assert.equal(testcase.expected, result);
                 });
