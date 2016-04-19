@@ -163,7 +163,7 @@
         var tokens = tokenize(text, true);
         var citationTokens = [];
 
-        if (format == 'article' && permalink) {
+        if (format.indexOf('article') !== -1 && permalink) {
             citationTokens.push(makeToken('text', ': ', true));
             citationTokens.push(makeToken('link', permalink, true));
         } else if (permashortlink) {
@@ -175,7 +175,7 @@
                 makeToken('text', ' (' + permashortcitation + ')', true));
         }
 
-        if (format == 'note+media') {
+        if (format.indexOf('media') !== -1) {
             targetLength -= linkLength + 1; // 23 characters + a space
         }
 

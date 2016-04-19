@@ -1,6 +1,6 @@
 {
   "name": "brevity",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "description": "A small utility to shorten posts to an acceptable tweet-length summary.",
   "main": "brevity.js",
   "directories": {
