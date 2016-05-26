@@ -51,8 +51,8 @@
                 --jj;
                 links[ii] = link.substring(0, jj+1);
                 splits[ii+1] = link.substring(jj+1) + splits[ii+1];
+                link = links[ii];
             }
-            link = links[ii];
 
             // avoid double linking by looking at preceeding 2 chars
             var prevText = splits[ii];
